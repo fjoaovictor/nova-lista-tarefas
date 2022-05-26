@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(93, 93, 93);
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+body{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(80, 80, 80);
+}
+
+.global{
+    width:600px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.cabecalho-titulo{
+
+    font-size: 50px;
+    text-shadow: 2px 2px 6px rgb(63, 63, 63);
+
+    margin-top: 50px;
+    color: rgb(224, 224, 224);
+}
+
+.add-tarefa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-tarefa{
+    font-size: 12px;
+    
+    text-align: left;
+    padding-left: 5px;
+
+    width: 250px;
+    height: 25px;
+
+}
+
+.btn-add{
+    background-color: rgb(112, 169, 255);
+    border: none;
+
+    width: 30px;
+    height: 27px;
+
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    background-color: rgb(151, 192, 255);
+}
+
+
+i{
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputVazio{
+    color: rgb(255, 161, 161);
+    font-size: 10px;
+
+    width: 285px;
+    text-align: start;
+
+    margin-top: 5px;
+}
+
+
+
+/* conteudo principal */
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin: 30px;
+}
+
+.lista-tarefas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 32px;
+
+    background-color: rgb(94, 93, 93); 
+    
+    box-shadow: 0 0 3px rgb(128, 127, 127);
+}
+
+.lista-tarefas li {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+    padding-left: 8px;
+}
+
+.lista-tarefas input[type="text"]{
+    
+    background-color: transparent;
+    border: none;
+
+    text-align: left;
+
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 3px;
+
+    width: 240px;
+    color: aliceblue;
+}
+
+.p-sub{
+    text-decoration: line-through 2.5px;  
+}
+
+
+.btn{
+    background-color: rgb(112, 169, 255);
+
+    width: 27px;
+    height: 32px;
+
+    border: none;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    background-color: rgb(147, 181, 233);
+}
+
